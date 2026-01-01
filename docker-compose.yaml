@@ -22,7 +22,7 @@ services:
     environment:
       - DB_HOST=mysql
       - DB_USERNAME=admin
-      - DB_PASSWORD=Devops123
+      - DB_PASSWORD=Mohit2017
       - DB_PORT=3306
     networks:
       - appnet
@@ -35,10 +35,10 @@ services:
       dockerfile: Dockerfile
     container_name: mysql-db
     environment:
-      - MYSQL_ROOT_PASSWORD=Cloud122
+      - MYSQL_ROOT_PASSWORD=Mohit2017
       - MYSQL_DATABASE=test
       - MYSQL_USER=admin
-      - MYSQL_PASSWORD=Devops123
+      - MYSQL_PASSWORD=Mohit2017
     ports:
       - "3306:3306"
     networks:
